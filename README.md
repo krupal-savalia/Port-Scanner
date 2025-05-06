@@ -6,7 +6,9 @@ This is a Python-based tool that scans a given host for open ports, detects basi
 - Scans top 1000 TCP ports
 - Basic service detection
 - Uses Nmap for version detection
-- Matches vulnerabilities from a local CVE DB
+- Grabs service banners
+- Pulls latest CVEs from NVD API
+- Generates an HTML report
 
 ## 📁 Project Structure
 ```
@@ -30,9 +32,10 @@ python scanner.py <target-host>
 
 ## 🧪 Output Example
 ```
-[Port 22] SSH
-Version Info: OpenSSH_7.2
-Vulnerability: CVE-2016-0777 - Information Disclosure
+- Port status
+- Banner
+- CVE list from NVD
+- HTML report with full results
 ```
 
 ## 📌 Author

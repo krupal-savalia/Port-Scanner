@@ -1,21 +1,14 @@
 {
-    "FTP": [
+  "apache": [
       {
-        "cve": "CVE-2001-0554",
-        "description": "FTP server directory traversal vulnerability"
+          "cve": "CVE-2021-41773",
+          "description": "Apache path traversal and RCE vulnerability"
       }
-    ],
-    "SSH": [
+  ],
+  "openssh": [
       {
-        "cve": "CVE-2016-0777",
-        "description": "OpenSSH client information leak"
+          "cve": "CVE-2016-0777",
+          "description": "OpenSSH information disclosure vulnerability"
       }
-    ],
-    "HTTP": [
-      {
-        "cve": "CVE-2021-41773",
-        "description": "Path traversal and RCE in Apache HTTP Server"
-      }
-    ]
-  }
-  
+  ]
+}
